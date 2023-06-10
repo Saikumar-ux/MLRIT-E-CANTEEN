@@ -9,9 +9,9 @@ function confirm() {
 
   var txt = document.getElementById('cartlist').value
   if (!txt.length == 0) {
-    alert('Your order is confirmed sir.  Please wait until your order arrives 😜 .')
+    alert('Your order is confirmed .  Please wait until your order arrives 😜 .')
     document.getElementById("FoodForm").reset();
   } else {
-    alert('Your cart is Empty sir.... Please order some 😋 Tasty food...')
+    alert('Your cart is Empty .... Please order some 😋 Tasty food...')
   }
 }
